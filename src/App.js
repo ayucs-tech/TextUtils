@@ -31,7 +31,7 @@ function App() {
     <>
      {/* <Router> */}
       <Navbar
-        title="True EV"
+        title="TextUtils"
         about="About Us"
         mode={mode}
         toggleMode={toggleMode}
