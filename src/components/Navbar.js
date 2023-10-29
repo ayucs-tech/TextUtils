@@ -7,7 +7,7 @@ export default function Navbar(props) {
         <a className="navbar-brand" href="#">
           TextUtils
         </a>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        
           <div className={`form-check form-switch mx-3 text-${props.mode==='light'?'dark':'light'} `}>
             <input
               className="form-check-input"
@@ -23,7 +23,7 @@ export default function Navbar(props) {
               Enable DarkMode
             </label>
           </div>
-        </div>
+      
       </div>
     </nav>
   );
